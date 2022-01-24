@@ -137,7 +137,7 @@ int babunsay(char** args) {
     printf("    \\\\      ,'^';.\n");
     printf("     \\\\    / _=_ \\.~\n");
     printf("      \\\\  (,(ovo),) ##}\n");
-    printf("        ,-\\(-''-)/{ #}╲▁\n");
+    printf("         ,-\\(-''-)/{ #}╲▁\n");
     printf("        {    '━━'  ('}} #╲\n");
     printf("        {{).▁▁▁:▁▁.('}}━━/##\n");
     printf("        {{)        (}}((\n");
