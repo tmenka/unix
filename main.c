@@ -80,7 +80,7 @@ int pwd()
 {
     char cwd[1024];
     getcwd(cwd, sizeof(cwd));
-    printf("Curennt path: %s\n", cwd);
+    printf("=> %s\n", cwd);
     return 1;
 }
 
@@ -103,7 +103,7 @@ int touch(char** args)
 {
     if(open(args[1],0777) != -1)
     {
-        printf("Created file: %s\n",args[1]);
+        printf("=> %s\n",args[1]);
         return 1;
     }
     else
